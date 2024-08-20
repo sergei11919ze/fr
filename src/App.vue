@@ -8,7 +8,7 @@
       <address><a href="https://vk.com/id131755651">ВК</a></address>
       <address><a href="https://t.me/sergei11919ze">Телеграмм</a></address>
       <address><a>Адрес электронной почты sergei11919ze@gmail.com</a></address>
-      <address><a href="http://localhost:8080">На главную</a></address></footer>
+      <address><a href="https://fr-18fk.onrender.com/">На главную</a></address></footer>
     
 </template>
 
