@@ -2,7 +2,7 @@
   <div>
     <div class="t">Создавайте текстовые заметки и делитесь ими с друзьями</div>
     
-    <div v-if="posts.status == 200" class="l" >Ссылка на заметку: <a :href="posts.url" target="_blank">{{ 'http://localhost:8080/' + posts.url }}</a></div>
+    <div v-if="posts.status == 200" class="l" >Ссылка на заметку: <a :href="posts.url" target="_blank">{{ 'https://fr-18fk.onrender.com/' + posts.url }}</a></div>
     <div v-if="posts.status == 1" class="l" style="left: 900px;">{{ posts.url }}</div>
     <div v-if="posts.status == 2" class="l" style="left: 850px;">{{ posts.url }}</div>
     <div v-if="posts.status == 3" class="l" style="left: 850px;">{{ posts.url }}</div>
@@ -21,12 +21,12 @@
       
       <button @click="createPost" id="buttonPost">Создать заметку</button>
   </form>
-  <div class='to-share'><div><a :href="'https://api.whatsapp.com/send?text=url=' + 'http://localhost:8080/' + posts.url" style="margin-right: 10px;  float:left">
+  <div class='to-share'><div><a :href="'https://api.whatsapp.com/send?text=url=' + 'https://fr-18fk.onrender.com/' + posts.url" style="margin-right: 10px;  float:left">
 <img   style="width: 50px;"  src="https://i.pinimg.com/originals/a7/9b/68/a79b687ea194584379449e01fb63401b.png">
 </a></div>
-<div><a :href="'https://vk.com/share.php?url=' + 'http://localhost:8080/' + posts.url" target="_blank" ><img  src="https://iwiki.su/wp-content/uploads/2014/04/VK.com-logo.svg_.png"   alt=""></a>
+<div><a :href="'https://vk.com/share.php?url=' + 'https://fr-18fk.onrender.com/' + posts.url" target="_blank" ><img  src="https://iwiki.su/wp-content/uploads/2014/04/VK.com-logo.svg_.png"   alt=""></a>
 </div>
-<div style="position: absolute; left: 110px; bottom: 65px"><a :href="'https://t.me/share/url?url=' + 'http://localhost:8080/' + posts.url + '&text=Заметки'" target="_blank" ><img  src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000"   alt=""></a>
+<div style="position: absolute; left: 110px; bottom: 65px"><a :href="'https://t.me/share/url?url=' + 'https://fr-18fk.onrender.com/' + posts.url + '&text=Заметки'" target="_blank" ><img  src="https://img.icons8.com/?size=100&id=63306&format=png&color=000000"   alt=""></a>
 </div>
 </div>
 
