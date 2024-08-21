@@ -71,6 +71,7 @@ methods : {
       axios.post('http://81.94.150.58:3000/api/v1/', {body: this.n.getValue() })
   .then(response => this.posts = response.data)
   this.body = '';
+  console.log(this.posts);
   },
   textBody(event){
       
