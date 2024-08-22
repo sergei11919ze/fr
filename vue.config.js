@@ -5,8 +5,8 @@ module.exports = {
     plugins: [
       new webpack.DefinePlugin({
         'process.env': {
-          'API_BASE_URL': 'http://81.94.150.58:3000/',
-          'HOST': 'https://fr-4bdc.onrender.com/'
+          'API_BASE_URL': 'http://81.94.150.58:3000',
+          'HOST': 'https://fr-4bdc.onrender.com'
         }
       })
     ]
